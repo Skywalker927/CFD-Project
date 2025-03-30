@@ -1,6 +1,6 @@
 clc;
-n = input("输入面元数量：");
-% n = 100;
+% n = input("输入面元数量：");
+n = 100;
 
 sit = zeros(n, 2);
 w = zeros(n, 1);
@@ -19,5 +19,4 @@ end
 dealt = dealt / n / 4 * 100;
 disp(['平均相对误差为： ', num2str(dealt), ' %']);
 
-scatter(w,Cp)
-
+% scatter(w,Cp)
