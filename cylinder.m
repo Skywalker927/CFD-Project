@@ -1,6 +1,6 @@
 clc;
 % n = input("输入面元数量：");
-n = 100;
+n = 200;
 
 sit = zeros(n, 2);
 w = zeros(n, 1);
